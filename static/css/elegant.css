@@ -1,5 +1,10 @@
 /* Base */
 /* #push.height = -#content-sans-footer.margin-bottom = #footer.margin-top + ul.footer-content */
+
+p {
+    font-family: 'PT Sans';
+}
+
 body,
 html {
     height: 100%;
@@ -17,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;
+    font-family: 'PT Serif', Serif;
     font-weight: normal;
 }
 h1 small, h1 a, h1 a:hover,
@@ -38,7 +43,7 @@ hr {
 
 /* site title */
 .site-name {
-    font-family: 'Monaco', 'Inconsolata', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', 'Courier New', Courier, Monospace;
+    font-family: 'Patua One', serif;
 }
 /* Top navigation menu */
 .top-menu li a {
@@ -47,7 +52,7 @@ hr {
 /* Footer */
 #footer {
     border-top: 1px solid  rgba(0, 0, 0, .2);
-    font: .8em Calibri, Tahoma, Arial, Sans-Serif;
+    font: .8em 'Open Sans Condensed', sans-serif, Sans-Serif;
     margin: 15px 0 0 0;
     padding: 0;
 }
@@ -87,7 +92,7 @@ ul.footer-content li {
     text-shadow: 0 0;
 }
 .disqus-comment-count {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Patua One', sans-serif;
     font-size: .9em;
 }
 #disqus_thread {
@@ -136,7 +141,7 @@ div.highlight {
 }
 /* Tags */
 .list-of-tags {
-    font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+    font-family: 'Open Sans Condensed', Sans-Serif;
     list-style: none;
     margin: 0;
     overflow: hidden;
@@ -163,10 +168,10 @@ div.highlight {
     line-height: 28px;
 }
 .tag-title {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Patua One', sans-serif;
 }
 .articles-in-tag li {
-    font: 1.1em/1.6em 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font: 1.1em/1.6em 'Patua One', sans-serif;
 }
 /* Article */
 
@@ -399,7 +404,7 @@ a.category-link:hover {
     text-decoration: none;
 }
 a.list-of-categories {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Patua One', sans-serif;
     font-size: 1.1em;
 }
 a.list-of-categories:hover {
@@ -414,7 +419,7 @@ ul.list-all-articles {
 }
 ul.list-all-articles li {
     border-bottom: 1px dotted #000;
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Patua One', sans-serif;
     font-size: 1.1em;
     padding: .3em 0;
     overflow: auto;
@@ -572,14 +577,14 @@ a#allposts:hover {
     border-radius: 3px;
     border: 1px solid #e1e1e8;
     color: #d14;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: 'Ubuntu Mono', "Courier New", monospace;
     font-size: 12px;
     padding: 2px 4px;
     white-space: nowrap;
 }
 /* Helper CSS classes */
 .amp {
-    font-family: 'Warnock Pro', 'Goudy Old Style', 'Palatino', 'Book Antiqua', Serif;
+    font-family: 'PT Serif', Serif;
     font-style: italic;
 }
 /* Use following classes to add floating images to your post */
