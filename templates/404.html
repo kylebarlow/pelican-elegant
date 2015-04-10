@@ -10,7 +10,8 @@ Page does not exist at {{ SITENAME|striptags|e }} blog.
 {% block content %}
 <div class="row-fluid">
     <header class="page-header span10 offset2">
-    <h1>That page doesn't exist!</h1>
+    <h1>The force is strong with this page...NOT</h1>
+    <h2>404 Not Found</h2>
     </header>
 </div>
 
@@ -19,6 +20,9 @@ Page does not exist at {{ SITENAME|striptags|e }} blog.
     <div class="span8 offset2">
         <p>Sorry, but the page you are looking for cannot be found. It seems that the page you were trying to reach doesn't exist, or may be it has just moved, or it no longer exists.</p>
         <p>The best thing to do is to use the search form or start again from the <a href="{{ SITEURL }}">home page</a>.</p>
+	<p>And please contact me if this message is appearing somewhere that it shouldn't!</p>
+	<p><img src="{{ SITEURL }}/images/duel.jpg" title="The most epic duel in the universe" alt="Juan and Kyle lightsaber duel in front of a coffeeshop named Java Hut...get it?" align="middle"></p>
+
         <div class="input-append">
             <form action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value)">
                 <input type="text" class="span12" placeholder="Search" name="q" id="tipue_search_input_404">

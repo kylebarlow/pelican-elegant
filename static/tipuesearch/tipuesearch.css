@@ -35,8 +35,8 @@ http://www.tipue.com/search
 #tipue_search_results_count, #tipue_search_warning_head
 {
     border-bottom: 1px solid rgb(143, 134, 134);
-    color: darkred;
-    font-family: Baskerville, Garamond, Georgia, "DejaVu Serif", "Times New Roman", Times, Serif;
+    color: #002654;
+    font-family: 'PT Serif', Serif;
     font-size: 3em;
     font-weight: normal;
     margin: 20px 0 20px 0;

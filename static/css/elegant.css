@@ -2,7 +2,7 @@
 /* #push.height = -#content-sans-footer.margin-bottom = #footer.margin-top + ul.footer-content */
 
 p {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
 }
 
 body,
@@ -192,7 +192,7 @@ div.highlight {
 /* } */
 
 .article-content, div.recent-posts p {
-    font: 1.2em/1.6em 'PT Serif', Georgia, 'Times New Roman', Times, Serif;
+    font: 1.2em/1.6em 'PT Serif', Serif;
     text-align: justify;
 }
 .article-content {
